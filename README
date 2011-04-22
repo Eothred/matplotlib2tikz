@@ -9,9 +9,13 @@ The workflow is as follows.
   0.) a) Place the matplotlib2tikz script in a directory where Python can find it
          (e.g., $PYTHONPATH).
 
-	 You can install it systemwide with
+     You can install it systemwide with
 
            sudo python setup.py install
+
+     You can install it for your own user only with
+
+           sudo python setup.py install --prefix=~/.local/
 
          or place the script matplotlib2tikz.py into the directory where you intend to use it.
 
